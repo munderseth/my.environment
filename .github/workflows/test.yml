@@ -15,6 +15,6 @@ jobs:
       name: test1
       url: https://testspace.com
     steps:
-      - uses actions/checkout@v4
+      - uses: actions/checkout@v4
       - name: echo
         run: echo "DEPLOYING WITH CHECK"
